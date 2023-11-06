@@ -4,6 +4,9 @@
 #include "catch.hpp"
 #include "redirect_io.h"
 #include "consolidate_ranges.h"
+#include <forward_list>
+#include <vector>
+#include <iostream>
 using namespace std;
 
 static void test_1_4() {
